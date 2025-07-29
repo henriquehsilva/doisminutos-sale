@@ -23,7 +23,7 @@ function App() {
     },
     {
       question: "Quanto tempo leva a entrega?",
-      answer: "Todo o processo de implantação, configuração e treinamento é realizado em apenas 1 dia."
+      answer: "Todo o processo de implantação, configuração e treinamento é realizado em 1 semana."
     }
   ];
 
