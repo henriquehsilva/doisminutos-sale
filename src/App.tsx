@@ -11,22 +11,22 @@ function App() {
   const faqData = [
     {
       question: "Quem ficará com as assinaturas?",
-      answer: "Você ficará com 100% da receita das assinaturas. Todo o sistema é entregue configurado para sua titularidade."
+      answer: "Toda a gestão e propriedade da publicação são da Dois Minutos. Como sócio fundador, você recebe 50% do lucro líquido gerado durante 1 ano."
     },
     {
       question: "O que está incluso no serviço?",
-      answer: "Entregamos toda a estrutura de publicação, configuração da plataforma, design e suporte editorial. Também oferecemos um treinamento completo para você criar e publicar histórias em menos de 5 minutos."
+      answer: "A Dois Minutos é responsável por toda a estrutura de publicação: criação das histórias, publicação semanal, landing page, Instagram e materiais de divulgação."
     },
     {
       question: "Quais custos adicionais terei?",
-      answer: "Você será responsável pelos custos com o uso do GPT e da plataforma Hedra, caso deseje utilizá-las."
+      answer: "Nenhum. Toda a produção e gestão são feitas pela Dois Minutos. Você apenas investe como sócio fundador."
     },
     {
       question: "Quanto tempo leva a entrega?",
-      answer: "Todo o processo de implantação, configuração e treinamento é realizado em 1 semana."
+      answer: "A publicação entra no ar em até 1 semana após a confirmação como sócio fundador."
     }
   ];
-
+  
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -35,18 +35,18 @@ function App() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Crie sua própria publicação de histórias<br />
-              <span className="text-[#D9731A]">com estrutura pronta e 100% de receita pra você.</span>
+              Ganhe dinheiro vendendo histórias<br />
+              <span className="text-[#D9731A]">e torne-se sócio fundador de uma publicação.</span>
             </h1>
             <p className="text-xl sm:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed opacity-90">
-              Em apenas 1 dia você terá sua publicação ativa, com landing page, sistema configurado e suporte completo. Ideal para quem quer ganhar com histórias e IA sem depender de terceiros.
+              Invista R$ 1.200,00 e torne-se sócio de uma publicação com 50% do lucro líquido durante 1 ano. A Dois Minutos cuida de tudo: histórias semanais, publicação, página, Instagram e publicidade.
             </p>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfuvXRK7OCuDx8TBBHbXjh5Fc0zU5cMHIiyVeKSgqrpbrKc2Q/viewform?usp=header"
               target="_blank"
               className="bg-[#D9731A] hover:bg-[#BF3939] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
-              Quero minha estrutura pronta
+              Quero ser sócio fundador
             </a>
           </div>
         </div>
@@ -58,10 +58,10 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-[#2A2359] mb-4">
-              O que está incluso
+              Por que ser sócio fundador?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Tudo que você precisa para publicar histórias e gerar receita com autonomia
+              Além de lucrar com a venda de histórias, você tem prioridade para participar de futuras publicações e acesso total à estrutura da Dois Minutos.
             </p>
           </div>
 
@@ -70,9 +70,9 @@ function App() {
               <div className="w-16 h-16 bg-gradient-to-br from-[#BF247A] to-[#812B8C] rounded-lg flex items-center justify-center mb-6">
                 <Edit3 className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-[#2A2359] mb-3">Configuração Completa</h3>
+              <h3 className="text-xl font-bold text-[#2A2359] mb-3">Histórias semanais produzidas</h3>
               <p className="text-gray-600 leading-relaxed">
-                Toda a estrutura do Substack, domínios, identidade visual, automações e integrações configuradas pra você.
+                A Dois Minutos produz de 5 a 15 histórias por semana com curadoria e qualidade profissional.
               </p>
             </div>
 
@@ -80,9 +80,9 @@ function App() {
               <div className="w-16 h-16 bg-gradient-to-br from-[#812B8C] to-[#2A2359] rounded-lg flex items-center justify-center mb-6">
                 <Globe className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-[#2A2359] mb-3">Landing Page Profissional</h3>
+              <h3 className="text-xl font-bold text-[#2A2359] mb-3">Landing Page e Instagram</h3>
               <p className="text-gray-600 leading-relaxed">
-                Criação de uma página personalizada para promover sua publicação e captar leitores.
+                Sua publicação terá presença digital com landing page profissional e perfil no Instagram gerenciado.
               </p>
             </div>
 
@@ -90,9 +90,9 @@ function App() {
               <div className="w-16 h-16 bg-gradient-to-br from-[#2A2359] to-[#D9731A] rounded-lg flex items-center justify-center mb-6">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-[#2A2359] mb-3">Treinamento de IA</h3>
+              <h3 className="text-xl font-bold text-[#2A2359] mb-3">Participação nos Lucros</h3>
               <p className="text-gray-600 leading-relaxed">
-                Aprenda a usar inteligência artificial com curadoria para criar e publicar histórias em menos de 5 minutos.
+                Você recebe 50% do lucro líquido da publicação por 1 ano e prioridade para renovar como sócio fundador.
               </p>
             </div>
 
@@ -100,9 +100,9 @@ function App() {
               <div className="w-16 h-16 bg-gradient-to-br from-[#D9731A] to-[#BF3939] rounded-lg flex items-center justify-center mb-6">
                 <BarChart3 className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-[#2A2359] mb-3">Suporte Técnico</h3>
+              <h3 className="text-xl font-bold text-[#2A2359] mb-3">Investimento com Retorno</h3>
               <p className="text-gray-600 leading-relaxed">
-                Orientação completa durante e após a implantação para garantir seu sucesso.
+                Com apenas R$ 1.200 você participa como sócio e começa a lucrar com um projeto estruturado e pronto pra escalar.
               </p>
             </div>
 
@@ -110,9 +110,9 @@ function App() {
               <div className="w-16 h-16 bg-gradient-to-br from-[#BF3939] to-[#BF247A] rounded-lg flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-[#2A2359] mb-3">Você no Controle</h3>
+              <h3 className="text-xl font-bold text-[#2A2359] mb-3">Vaga Limitada</h3>
               <p className="text-gray-600 leading-relaxed">
-                Toda a conta, plataforma e receita são seus. Você terá 100% de autonomia e propriedade.
+                Apenas alguns sócios fundadores serão aceitos por publicação, garantindo exclusividade e retorno mais direto.
               </p>
             </div>
           </div>
